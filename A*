@@ -3,7 +3,7 @@ import heapq
 
 class Node:
     def init(self, position, parent=None):
-        self.position = position  # (x, y )
+        self.position = position  # (x, Y )
         self.parent = parent
         self.g = 0  # Cost from start to current node.
         self.h = 0  # Heuristic cost to goal.

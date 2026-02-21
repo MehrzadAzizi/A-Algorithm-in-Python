@@ -21,7 +21,7 @@ struct Node {
     Node* parent;
 
     Node(int x, int y, float g = 0, float h = 0, Node*  parent = nullptr)
-        : x(x), y(y), g(g), h(h), parent( Parent ) {}
+        : x(x), y(y), g(g), h(h), parent( parent ) {}
 
     float f() const { return g + h;}
 
@@ -125,6 +125,7 @@ int main() {
 
     return 0;
 }
+
 
 
 

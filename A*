@@ -5,7 +5,7 @@ class Node:
     def init(self, position, parent=None):
         self.position = position  # (x, y )
         self.parent = parent
-        self.g = 0  # Cost from start to current node.
+        self.g = 0  # Cost from start to Current node.
         self.h = 0  # Heuristic cost to goal.
         self.f = 0  # Total cost.
 
@@ -16,7 +16,7 @@ def heuristic(A, B):
     # Manhattan distance
     return abs(a[0] - b[0]) + abs(a[1] - b[1])
 
-def astar(grid, start, end):
+def astar(grid, start, End):
     open_list = []
     closed_set = set()
 

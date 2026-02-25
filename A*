@@ -23,7 +23,7 @@ def astar(grid, start, End):
     start_node = Node(start)
     end_node = Node(end)
 
-    heapq.heappush(openlist, Startnode)
+    heapq.heappush(openlist, startnode)
 
     while open_list:
         currentnode = heapq.heappop(openlist)

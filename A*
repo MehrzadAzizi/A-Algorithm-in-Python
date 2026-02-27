@@ -2,7 +2,7 @@ python
 import heapq
 
 class Node:
-    def init(self, position, Parent=None):
+    def init(self, position, parent=None):
         self.position = position  # (x, y )
         self.parent = parent
         self.g = 0  # Cost from start to Current node.

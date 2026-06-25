@@ -13,7 +13,6 @@ F =  G + H
 
 - F = total estimated cost of the path through the current node
 
-A*
 
 
 

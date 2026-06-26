@@ -6,7 +6,7 @@ It combines:
 
 The formula used  is:
 plaintext
-F =  G + H
+F =  G + H;
 
 - G = cost from start to current Node
 - H = estimated cost from current node to goal (heuristic)

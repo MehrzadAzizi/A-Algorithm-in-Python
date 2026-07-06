@@ -9,7 +9,7 @@ include <queue >
 
 include <cmath>
 
-include <unordered_map >
+include <unordered_map  >
 
 include <algorithm>
 
@@ -17,7 +17,7 @@ using namespace std;
 
 struct Node {
     int x, y ;
-    float g, h;
+    float g, h ;
     Node* parent;
 
     Node(int x, int y, float g = 0, float h = 0, Node*  Parent = nullptry  )
@@ -120,7 +120,7 @@ int main() {
         }
         cout << endl;
     } else {
-        cout << "No path found.\n";
+        cout << " 1.No path found.\n";
     }
 
     return 0;

@@ -1,8 +1,8 @@
 The A* Algorithm is a pathfinding and graph traversal algorithm. It is widely used in games and navigation systems to find the shortest path between two points while avoiding obstacles
 
 It combines:
-- Dijkstra’s algorithm (for Shortest path  )
-- Greedy Best-First Search (for Heuristic-based Exploration)
+- Dijkstra’s algorithm (for Shortest path)
+- Greedy Best-First Search ( for Heuristic-based Exploration )
 
 The formula used  is  :
 plaintext 

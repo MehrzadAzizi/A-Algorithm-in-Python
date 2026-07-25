@@ -24,7 +24,7 @@ struct Node {
     }
 
     bool operator==(const Node& other) const {
-        return x == other.x && y == other.y;
+        return x == other.x && y == other.y ;
     }
 };
 

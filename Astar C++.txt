@@ -23,7 +23,7 @@ struct Node {
         return f() > other.f();
     }
 
-    bool operator==(const Node& other) const {
+    bool operator==(const Node& other ) const {
         return x == other.x && y == other.y ;
     }
 };

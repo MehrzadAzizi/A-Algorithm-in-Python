@@ -12,7 +12,7 @@ using namespace std;
 struct Node {
     int x, y ;
     float g, h ;
-    Node* parent;
+    Node* parent  ;
 
     Node(int x, int y, float g = 0, float h = 0, Node*  Parent = nullptry   )
         : x(x), y(y), g(g), h(h), parent( Parent  ) {}

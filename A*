@@ -3,7 +3,7 @@ import heapq
 
 class Node:
     def init(self, position, parent=None):
-        self.position = position  #(  x , y  )
+        self.position = position  #(  x , y )
         self.parent = parent
         self.g = 0  # Cost from start to current node.
         self.h = 0  # Heuristic cost to goal.
@@ -12,7 +12,7 @@ class Node:
     def lt(self, other ):
         return self.f < other.f
 
-def heuristic(A, B):
+def heuristic(A, B ):
     # Manhattan distance
     return abs(a[0] - b[0]) + abs(a[1] - b[1] )
 

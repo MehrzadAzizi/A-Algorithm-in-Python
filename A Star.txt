@@ -5,11 +5,11 @@ It combines:
 - Greedy Best-First Search ( for Heuristic-based Exploration   )
 
 
-The formula used  is :
+The formula used  is:
 plaintext 
 F = G + H;
 
-- G = cost from start to current Node...
+- G = cost from start to current Node.
 - H = estimated cost from current node to goal (heuristic1 )
 1+3
 - F = total estimated cost of the path through the current node

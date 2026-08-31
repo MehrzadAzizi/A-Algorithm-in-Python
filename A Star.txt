@@ -2,7 +2,7 @@ The A* Algorithm is a pathfinding and graph traversal algorithm. It is widely us
 
 It combines:
 - Dijkstra’s algorithm ( for Shortest path)
-- Greedy Best-First Search ( for Heuristic-based Exploration   )
+- Greedy Best-First Search ( for Heuristic-based Exploration )
 
 
 The formula used  is:

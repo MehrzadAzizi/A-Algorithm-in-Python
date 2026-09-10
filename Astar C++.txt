@@ -17,6 +17,7 @@ struct Node {
     Node(int x, int y, float g = 0, float h = 0, Node*  Parent = nullptry )
         : x(x), y(y), g(g), h(h), parent( Parent  ){}
 
+
     float f() const { return g + h;}
 
     bool operator>(const Node& other ) const {

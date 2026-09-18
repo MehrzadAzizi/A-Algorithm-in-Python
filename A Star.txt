@@ -6,7 +6,7 @@ It combines:
 
 
 The formula used  is:
-plaintext 
+plaintext ..
 F = G + H ;
 
 - G = cost from start to current Node.
